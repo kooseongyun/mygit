@@ -1,3 +1,16 @@
-// set up environment for geant4
+#include <iostream>
+using namespace std;
 
-source /cvmfs/geant4.cern.ch/geant4/10.7.p02/x86_64-centos7-gcc8-optdeb-MT/CMake-setup.sh
+int main()
+{
+	int a;
+	cin >>  a;
+	
+	int b = 4;
+
+	int c = a + b;
+
+	cout << c << endl;
+	
+	return 0;
+} 
